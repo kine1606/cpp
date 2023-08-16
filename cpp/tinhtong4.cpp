@@ -2,6 +2,7 @@
 using namespace std;
   int main()
   {
+     // nhap chuong trinh tinh theo bai 4 cua trang studocu.com by Kine1606
     double s(0);
     double i(2);
     int n;
