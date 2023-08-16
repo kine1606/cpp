@@ -12,6 +12,5 @@ using namespace std;
         i++; 
       }
     cout<< "s="<< s;
-
   }
   
