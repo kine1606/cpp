@@ -10,9 +10,8 @@ int main()
     cin>> x;
     cout<< "nhap so n=";
     cin>> n;
-    int *ptr;
-    ptr=&n;
-    for (size_t i = 0; i <= *ptr; i++)
+    int const index = n;
+    for (size_t i = 0; i <index; i++)
     {
         S=S+ pow(x,2*n);
         n--;
