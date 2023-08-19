@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 int main()
-{
+{  // nhap chuong trinh tinh theo bai 12 cua trang studocu.com by Kine1606
     long S(0);
     int x;
     int n;
@@ -10,12 +10,11 @@ int main()
     cin>> x;
     cout<< "nhap so n=";
     cin>> n;
-    int *ptr;
-    ptr=&n;
-    for (size_t i = 0; i <= *ptr; i++)
+    int const index = n;
+    for (int i = 0; i< index ; i++) 
     {
         S=S+ pow(x,n);
         n--;
     }
-    cout<< "S="<< S;
+    cout<< "S="<< S; 
 }
