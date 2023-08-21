@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 // bai2 by Kine1606
-#define MAX 1000
+#define MAX 100000
 int main()
 {
     int songuyen;
