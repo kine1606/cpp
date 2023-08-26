@@ -9,7 +9,11 @@ int main()
    double S(0);
    int n;
    cout << " nhap so n=";
+   do
+   {
    cin>> n;
+   } while (n<1 || n> 1000);
+   
    for (int i = 1; i <=n; i++)
    {
     S= S + 1.0/i;
