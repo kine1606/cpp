@@ -18,5 +18,5 @@ int main()
    {
     S= S + 1.0/i;
    }
-      cout << " tong s=" << S;
+      cout << " tong s=" <<setprecision(3)<< S;
 }
