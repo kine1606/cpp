@@ -3,6 +3,9 @@ Hỏi bao nhiêu phần tử trong mảng có giá trị trong đoạn [p1, p2] 
 
 Xem nội dung đầy đủ tại: https://123docz.net/document/3504891-de-thi-nhap-mon-lap-trinh-c-co-giai-chi-tiet.htm*/
 #include <iostream>
+#include <vector>
+#include <ctime>
+#include <random>
 using namespace std;
 void nhapso1(int &p1)
 {
@@ -22,6 +25,24 @@ void nhapso2(int &p2)
 }
 int main()
 {
+   
+    int soPhanTu;
+    srand(time(NULL));
+    cout << " nhap so phan tu= ";
+    do
+    {
+        cin>> soPhanTu;
+    } while (soPhanTu<1 || soPhanTu>100000);
+    vector <int> arr;
+    for (int i = 0; i < soPhanTu; i++)
+    {
+       arr.push_back(rand()%10+1);
+    }
+    for (int i = 0; i < soPhanTu; i++)
+    {
+        cout<< arr[i] << " ";
+    }
+    cout<< "\n";
     int p1;
     int p2;
     nhapso1(p1);
@@ -31,5 +52,16 @@ int main()
         nhapso1(p1);
         nhapso2(p2);
     }
-    cout << "trong khoang [p1,p2] co " << p2-p1 +1 << "phan tu";
+    unsigned int count =0;
+    for (int i=0; i< soPhanTu; i++)
+    {
+          if (p1<=arr[i] && arr[i]<=p2)
+          {
+             count++;
+          }
+          else 
+          continue;
+    }
+    cout<< count;  
+    return 0;
 }
