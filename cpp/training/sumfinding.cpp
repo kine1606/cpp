@@ -14,20 +14,33 @@ int main ()
     arr[i]= rand()%10+1;
     cout << arr[i] << " ";
   }
+  cout << '\n';
   int numBerFinding;
   cin  >> numBerFinding;
+
+  bool isFound = false;
   for (size_t j = 0; j < n; j++)
   {
     for (size_t i = j+1; i < n; i++)
     {
       if (arr[i]+arr[j]==numBerFinding)
       {
-        cout << "YES";
-        exit(0);
-        // exit all the loop to the main but unless the condition true , how to cout << "NO " on the screen? big blind there;
+        isFound=true;
+        break;
+      }
+      if (isFound)
+      {
+        break;
       }
     }
   }
-  
-  
+
+  if(isFound)
+  {
+        cout << "YES";
+  }
+  else
+  {
+        cout << "NO";
+  }
 }
