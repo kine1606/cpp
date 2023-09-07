@@ -10,7 +10,7 @@
 #include <cmath>
 #include <vector>
 using namespace std;
-int checksochinhphuong(int &n)
+int checksochinhphuong(int n)
 {
     for (size_t a = 1; a < n/2; a++)
     {
@@ -19,20 +19,22 @@ int checksochinhphuong(int &n)
     }
     return 0;
 }
-int uocsochan (int&n)
+int uocsochan (int n)
 {
-    cout << " 1 ";
-    for (size_t i = 2; i <=n; i+2)
+    cout << "cac uoc so chan la ";
+    for (size_t i = 2; i <=n; i+=2)
     {
-        if (n%i !=0) break;
+        if (n%i !=0) continue;
         if (n%i==0)
         {
+          
           cout << i << " ";
         }
     }
+    cout << "\n";
     return 0;
 }
-int songuyento (int&findNumberIndex)
+int songuyento (int& findNumberIndex)
 {
     bool isPrime= true;
     for (int i = 2; i <findNumberIndex; i++)
@@ -49,7 +51,7 @@ int songuyento (int&findNumberIndex)
     }
     return 0;
 }
-int demsoluong(int& n)
+int demsoluong(int n)
 {
     vector <int> arr;
     int a=n/10000;                         // 24141/10000=2
@@ -57,11 +59,13 @@ int demsoluong(int& n)
     int c=n/100- a*100 - b*10;                  //24141/100 -200 - 40 = 1
     int d=n/10 - a*1000 - b*100 - c*10;              
     int e=n- a*10000 -b*1000 - c*100 - d*10;
-    int MAX(0);
-    
-    
-      
-    return 0;            
+    int *MAX0;
+    int *MAX1;
+    int *MAX2;
+    int *MAX3;
+    int *MAX4;
+    return 0;
+ // still not complete       
 }
 int main()
 {
@@ -74,26 +78,17 @@ int main()
     }
     else 
     {
-    cout << n << " khong la so chinh phuong\n"; 
+    cout << n << " khong la so chinh phuong\n"; // done 
     } 
 
-    // for (int i = 2; i <= n; i+2)
-    // {
-    //     if (n%i!=0)
-    //     {
-    //         cout << " khong co uoc so chan cua n ";
-    //         break;
-    //     }
-        
-    //     if (n%i==0)
-    //     {
-    //         cout << i <<  " ";
-    //     }
-        
-    for (int findNumberIndex = 2; findNumberIndex <n; findNumberIndex++)
+    uocsochan(n); // done
+
+    cout << "cac so nguyen to la :";
+    for (int findNumberIndex = 2; findNumberIndex <=n; findNumberIndex++)
     {
-        songuyento(findNumberIndex);
+        songuyento(findNumberIndex); // done
     }
-    demsoluong(n);
+
+    // demsoluong(n);  // still not complete 
     return 0;
 }
