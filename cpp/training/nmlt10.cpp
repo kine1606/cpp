@@ -12,27 +12,23 @@ by Kine1606
 using namespace std;
 int sohoanhao (vector <int> arrayNumber)
 {
-    vector <int> perfectNumber;
-    int sumAllPerfectNum(0);
+    int sumAllPerfectNumber(0);
     for (size_t i = 0; i < size(arrayNumber); i++)
     {
        int sum(0);
-      for (int j = 1; j < arrayNumber[i]; i++)
-    {
-        if (arrayNumber[i]&j==0)
-     {
-        sum+=j;
-     }
-      else sum+=0;
+             for (int j = 1; j < arrayNumber[i]; j++)
+             {
+                  if (arrayNumber[i]%j==0)
+                 {
+                      sum+=j;
+                 }
+             }
+              if (sum==arrayNumber[i])
+                 {
+                    sumAllPerfectNumber+=arrayNumber[i];
+                 }
     }
-        if (sum==arrayNumber[i])
-        {
-          perfectNumber[i]=sum;
-          sumAllPerfectNum+= perfectNumber[i];
-        }
-  }
-    return 0;
-  
+    return sumAllPerfectNumber;
 }
 int listLargestNum (vector <int> arrayNumber)
 {
@@ -80,12 +76,12 @@ int main()
         cout << arrNumber[i]<< " ";
     }
     // done quest(1)
-    
-    cout << '\n';
-    // cout << "sum all Perfect Number is equal to=";
-    // sohoanhao(arrNumber) ;
-    // haven't done yet 
 
+    cout << '\n';
+    cout << "sum all Perfect Number is equal to=";
+    cout <<sohoanhao(arrNumber) ; // done quest(4)
+
+    cout << '\n';
     cout << "largest number appear at :";
     listLargestNum(arrNumber);   // done quest(3)
     
