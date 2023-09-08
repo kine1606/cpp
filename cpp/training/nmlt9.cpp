@@ -1,5 +1,5 @@
 /*
-(1)Kiểm  tra  n  có  phải  là  số chính  phương  hay  không  (số chính  phương  là  số nguyên có căn bậc 2 là một số nguyên, hay nói cách khác, số chính phương là bình phương (lũy thừa bậc 2) của một số nguyên khác).  
+(1)Kiểm  tra  n  có  phải  là  số chính  phương  hay  không  
 (2) Liệt kê tất cả các ước số chẵn của n. 
 (3) Liệt kê tất cả các số nguyên tố nhỏ hơn n.
 (4) Đếm số lượng chữ số lớn nhất của n. Ví du n=24141, số lớn nhất là 4 số lượng 2  
