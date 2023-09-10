@@ -10,7 +10,7 @@ int main()
     int count (1);
     for (int i = 10; i <n; i*=10)
     {
-        if (n/10 !=0)
+        if (n/i !=0)
         {
             count++;
         }
