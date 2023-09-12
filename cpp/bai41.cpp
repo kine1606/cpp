@@ -9,12 +9,13 @@ int main()
     cout << "enter n =";
     cin >> n;
     vector<int> array;
+    cout << " odd elements of n are (is) :";
     while (n!=0)
     {
         array.push_back(n%10);
         if (array.back()%3==0 || array.back()%5==0 || array.back()%7==0)
         {
-         cout << array.back();
+         cout << array.back() << " ";
         }
         n/=10;
     } 
