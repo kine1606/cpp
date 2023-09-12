@@ -13,7 +13,8 @@ int main()
     while (n!=0)
     {
         array.push_back(n%10);
-        if (array.back()%3==0 || array.back()%5==0 || array.back()%7==0)
+        if (array.back()%3==0 || array.back()%5==0 || array.back()%7==0 )
+        if (array.back()!=6)    
         {
          cout << array.back() << " ";
         }
