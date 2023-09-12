@@ -13,6 +13,6 @@ int main()
         multiple*=n%10;
         n/=10;
     }
-    cout << "sum all elements of n= " << multiple;
+    cout << "multiple all elements of n= " << multiple;
     return 0;
 }
