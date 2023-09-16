@@ -9,7 +9,7 @@ int dequyhaha(int x, int n)
     {
         return 0;
     }
-    return dequyhaha(x,n/2)+ pow(-1,n)*pow(x,n);
+    return dequyhaha(x,n/2)+ pow(-1,n/2)*pow(x,n);
 }
 int main()
 {
