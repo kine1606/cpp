@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-    int a,b,c;
+    double a,b,c;
     cout << "enter a=";
     cin >> a;
     cout << "enter b=";
@@ -29,7 +29,7 @@ int main()
         }
         else 
         {
-            cout << " nghiem x=" << (-c/b*1.0);
+            cout << " nghiem x=" << (-c/b);
             return 0;
         }
     }
