@@ -1,3 +1,5 @@
+//Kiểm tra số nguyên 4 byte có dạng 2^k  hay không?
+//by Kine1606
 #include <iostream>
 using namespace std;
 // bool checked(int n)
