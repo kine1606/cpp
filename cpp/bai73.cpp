@@ -1,3 +1,5 @@
+// Tìm số nguyên dương n nhỏ nhất sao cho 1 + 2 + 3 + ... + n > 10000
+// by Kine1606
 #include <iostream>
 using namespace std;
 int main()
@@ -14,4 +16,4 @@ int main()
         }
     }
     return 0;
-}
+}      
