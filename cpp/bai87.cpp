@@ -5,11 +5,12 @@
  using namespace std;
  int main()
  {
-    double x,n;
+    double x;
+    int n;
     cout << "enter x=";
     cin >> x;
     cout << "enter n=";
     cin >> n;
-    cout << "S(x,n)=" << pow(x,n);
+    cout << "S(x,n)=" << pow(x,1.0/n);
     return 0;
  }
