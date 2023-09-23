@@ -1,30 +1,42 @@
 // tim so co phai so hoan hao hay khong ?
+// by Kine1606
 #include <iostream>
 #include <vector>
+#define MAX 100000
 using namespace std;
-int main()
+bool sumDivisor (int n)
 {
-    int n(0);
-    cout << " nhap so n=";
-    cin >>n;
-    vector <int> arrNumber;
+    int array[MAX];
     for (size_t i = 1; i <n; i++)
     {
-        if (n%i==0)
-        {
-            arrNumber.push_back(i);
-        }
-        else arrNumber.push_back(0);
+        if (n%i==0) array[i]=i;
+        else        array[i]=0;
+
     }
     int sum(0);
     for (int i = 0; i < n; i++)
     {
-        sum+=arrNumber[i];
+        sum+=array[i];
     }
-    if ((sum== n))
+
+    if (sum==n) return true;
+    else        return false;
+
+    return true;
+}
+int main()
+{
+    int n(0);
+    cout << "nhap so n=";
+    cin >>n;
+    if (sumDivisor(n))
     {
         cout << n << " la so hoan hao vcl";
     }
-    else cout << n << " khong la so hoan hao ";
+    else 
+    {
+        cout << n << " khong la so hoan hao ";
+    }
     return 0;
 }
+
