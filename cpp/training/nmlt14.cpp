@@ -71,7 +71,7 @@ void soTienX( unsigned int& g, unsigned int& h, unsigned int& k, unsigned int mo
     }
     if (money<2)  k++;
     return;
-}
+} 
 int main()
 {   
     unsigned int a(0),b(0),c(0),d(0),e(0),f(0),g(0),h(0),k(0);
