@@ -45,8 +45,8 @@ public:
     // compare 2 fractions
     int compare(const psClass& ps)
     {
-        double x = double(this->m_tu / this->m_mau);
-        double y = double(ps.m_tu / ps.m_mau);
+        double x = this->m_tu*1.0 / this->m_mau*1.0;
+        double y = ps.m_tu*1.0 / ps.m_mau*1.0;
         if(x > y) return 1;
         else if (x == y) return 0;
         else return -1;
