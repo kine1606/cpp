@@ -3,12 +3,12 @@
 int main()
 {
     Monomial donthuc, daoham; 
-    donthuc.set_Monomial();
-    donthuc.get_Monomial();
+    donthuc.input();
+    donthuc.output();
     donthuc.change_Monomial();
-    donthuc.get_Monomial();
+    donthuc.output();
 
     daoham = donthuc.derivative();
-    daoham.get_Monomial();
+    daoham.output();
     std::cout << daoham.Calc_x0(12);
 }

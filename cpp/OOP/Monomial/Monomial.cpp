@@ -3,6 +3,7 @@
 #include <cmath>
 Monomial::Monomial():m_coeff(0),m_degree(0){};
 Monomial::Monomial(const double& coeff, const double& degree):m_coeff(coeff),m_degree(degree){};
+// i&o
 void Monomial::input()
 {
     std::cout<< "Nhap bac cua x: ";
@@ -10,7 +11,7 @@ void Monomial::input()
     std::cout<< "Nhap he so cua x:";
     std::cin>> m_coeff ;
 }
-void Monomial::output()
+void Monomial::output() const
 {
     std::cout<< "Don thuc: ";
     if(m_degree == 0)
@@ -36,6 +37,26 @@ void Monomial::output()
             std::cout<< m_coeff << "/x^" << m_degree <<'\n';
     }
     std::cout<< "========================" <<'\n';
+}
+
+// set func
+void Monomial::set_coeff(double x){m_coeff = x;}
+void Monomial::set_degree(double x ){m_degree = x;}
+void Monomial::set_monomial(double x, double y)
+{
+    m_coeff = x;
+    m_degree = y;
+}
+
+// get func
+double Monomial::get_coeff() const{return m_coeff;}
+double Monomial::get_degree() const {return m_degree;}
+Monomial Monomial::get_monomial() const 
+{
+    Monomial temp;
+    temp.m_coeff = m_coeff;
+    temp.m_degree = m_degree;
+    return temp;
 }
 
 double Monomial::Calc_x0(const int& x)
