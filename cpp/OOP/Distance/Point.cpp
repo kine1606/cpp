@@ -7,7 +7,6 @@ Point::Point()
     m_x = 0;
     m_y = 0;
 }
-
 // init constructor
 Point::Point(double x, double y): m_x(x), m_y(y){};
 
@@ -19,20 +18,50 @@ void Point::input()
     std::cin>> m_y ;
 }
 
+void Point::output()
+{
+    std::cout<< "Diem (" << m_x << ", " << m_y << ")"<<'\n';
+}
+
+double Point::get_x() {return m_x;}
+double Point::get_y() {return m_y;}
+
 // calculate the distance of 2points
-double Point::calc(const Point& rhsPoint)
+double Point::calcDistance(const Point& rhsPoint)
 {
     double x = (m_x - rhsPoint.m_x);
     double y = (m_y - rhsPoint.m_y);
     return sqrt(x*x + y*y);
 }
 
-void Point::output(const Point& rhsPoint, const double& distance)
+
+void Point::LinearMove()
 {
-    std::cout<< "===============================" <<'\n';
-    std::cout<< "Diem dau tien(" << m_x << ", " << m_y << ")"<<'\n';
-    std::cout<< "Diem thu hai (" << rhsPoint.m_x << ", " << rhsPoint.m_y << ")" <<'\n';
-    std::cout<< "Khoang cach giua 2 diem: " << distance;
+    std::cout<< "Nhap so dv tinh tien x:" ;
+    int temp_x, temp_y;
+    std::cin>> temp_x ;
+    std::cout<< "Nhap so dv tinh tien y:" ;
+    std::cin>> temp_y ;
+    this->m_x = m_x + temp_x;
+    this->m_y = m_y + temp_y;
+    std::cout<< "Da tinh tien!" <<'\n';
 }
 
+void Point::updatePoint()
+{
+    std::cout<< "0.     Thoat" <<'\n';
+    std::cout<< "1.     Thay doi hoanh do" <<'\n';
+    std::cout<< "2.     Thay doi tung do" <<'\n';
+
+    while(true)
+    {    
+        std::cout<< "Nhap so: " <<'\n';
+        int n; 
+        std::cin>> n ;
+        if(n==0 || n>2) return;
+        else if(n==1) std::cin>> m_x ;
+        else std::cin>> m_y ;
+        std::cout<< "Da thay doi!" <<'\n';
+    }
+}
 Point::~Point(){}
