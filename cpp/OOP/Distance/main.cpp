@@ -5,7 +5,9 @@ int main()
 {
     Point p1;
     p1.input();
-    Point p2(16, 6);
-    double distance = p1.calc(p2);
-    p1.output(p2, distance);
+    p1.output();
+    p1.LinearMove();
+    p1.output();
+    p1.updatePoint();
+    p1.output();
 }

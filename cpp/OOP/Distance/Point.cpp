@@ -59,8 +59,16 @@ void Point::updatePoint()
         int n; 
         std::cin>> n ;
         if(n==0 || n>2) return;
-        else if(n==1) std::cin>> m_x ;
-        else std::cin>> m_y ;
+        else if(n==1) 
+        {
+            std::cout<< "Nhap hoanh do x: ";
+            std::cin>> m_x ;
+        }
+        else 
+        {
+            std::cout<< "Nhap tung do y: ";
+            std::cin>> m_y ;
+        }
         std::cout<< "Da thay doi!" <<'\n';
     }
 }
