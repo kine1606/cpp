@@ -1,3 +1,4 @@
+#pragma once
 #include "SinhVien.h"
 class CaoDang : public SinhVien
 {

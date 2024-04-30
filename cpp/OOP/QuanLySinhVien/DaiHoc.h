@@ -1,3 +1,4 @@
+#pragma once
 #include "SinhVien.h"
 #include <string>
 class DaiHoc : public SinhVien

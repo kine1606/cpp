@@ -5,6 +5,6 @@
 int main()
 {
     GiangVien gv1;
-    std::cin >> gv1;
+    gv1.input();
     gv1.output();
 }
