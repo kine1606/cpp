@@ -25,4 +25,7 @@ long long LapTrinhVien::realSalery()
 {
     return m_basicSalery + m_overtime* 200000;
 }
-LapTrinhVien::~LapTrinhVien(){}
+LapTrinhVien::~LapTrinhVien()
+{
+    std::cout<< "Da huy Lap Trinh Vien!" <<'\n';
+}

@@ -25,4 +25,7 @@ long long KiemChungVien::realSalery()
 {
     return m_basicSalery + m_errorCount*50000;
 }
-KiemChungVien::~KiemChungVien(){}
+KiemChungVien::~KiemChungVien()
+{
+    std::cout<< "Da Huy Kiem Chung Vien!" <<'\n';
+}

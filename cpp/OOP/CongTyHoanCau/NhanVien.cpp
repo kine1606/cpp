@@ -47,4 +47,3 @@ void NhanVien::output()
     std::cout<< "Email: " << m_email <<'\n';
     std::cout<< "Luong co ban: " << m_basicSalery <<'\n';
 }
-NhanVien::~NhanVien(){}

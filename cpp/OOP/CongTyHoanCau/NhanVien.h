@@ -16,6 +16,6 @@ public:
     virtual void input();
     virtual void output();
     virtual long long realSalery() = 0;
-    ~NhanVien();
+    virtual ~NhanVien() = default;
 };
 

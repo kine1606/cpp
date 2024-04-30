@@ -33,4 +33,9 @@ int main()
         }
     }
     if(!check) std::cout<< "Khong co" <<'\n';
+    for (size_t i = 0; i < 4; i++)
+    {
+        delete ptr[i];
+    }
+    
 }
