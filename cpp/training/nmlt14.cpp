@@ -1,87 +1,42 @@
-// nhập vào giá tiền tính tổng số tờ tiền sao cho tờ tiềnít nhất
+// nhập vào giá tiền tính tổng số tờ tiền sao cho tờ tiền ít nhất
 // by Kine1606
 #include <iostream>
 using namespace std;
-void soTienXXX( unsigned int& a, unsigned int& b, unsigned int& c, unsigned int money)
+void soTienXXX( unsigned int& x, unsigned int& y, unsigned int& z, unsigned int money)
 {   
-    money=money/100;
     if (money==0)  return;
     if (money>=5)
     {
-        a++;
+        x++;
         money-=5;
         if (money==0)   return ;
     }
     while (money>=2 && money<5)
     {
-        b++;
+        y++;
         money-=2;
         if (money==0)  return;
         
     }
-    if (money<2)  c++;
+    if (money<2)  z++;
     return;
 }
-void soTienXX( unsigned int& d, unsigned int& e, unsigned int& f, unsigned int money,int sotien3)
-{
-    int sotien;
-    sotien=money/100;
-    money=money-(sotien*100)-sotien3;
-    money/=10;
-    cout << "money=" << money << '\n';
-    if (money==0)  return;
-    if (money>=5)
-    {
-        d++;
-        money-=5;
-        if (money==0)  return ;
-    }
-    while (money>=2 && money<5)
-    {
-        e++;
-        money-=2;
-        if (money==0)  return;
-    }
-    if (money<2)  f++;
-    return;
-}
-void soTienX( unsigned int& g, unsigned int& h, unsigned int& k, unsigned int money, int& sotien3)
-{
-    int sotien1;
-    int sotien2;
-    sotien1 = money/100;
-    money = money - (sotien1*100);
-    sotien2 = money/10;
-    money = money - (sotien2*10);
-    sotien3 = money;
-    cout << "money="<< money << '\n';
-    if (money==0)  return;
-    if (money>=5)
-    {
-        g++;
-        money-=5;
-        if (money==0)   return ;
-    }
-    while (money>=2 && money<5)
-    {
-        h++;
-        money-=2;
-        if (money==0)  return;
-        
-    }
-    if (money<2)  k++;
-    return;
-} 
 int main()
 {   
     unsigned int a(0),b(0),c(0),d(0),e(0),f(0),g(0),h(0),k(0);
-    cout << "enter money (exam 500):";
-    unsigned int money;
-    int sotien3;
-    cin >> money;
-    soTienXXX (a,b,c,money);
-    soTienX (g,h,k,money,sotien3);
-    soTienXX (d,e,f,money,sotien3);
+    cout << "enter money (0<money<1000):";
+    unsigned int money1;
+    unsigned int money2,money3;
+    cin >> money1;
+    money3=money1;
+    money2=money1;
+    money1/=100;
+    soTienXXX (a,b,c,money1);
+    money2%=10;
+    soTienXXX (g,h,k,money2);
+    money3= money3 -money1*100 - money2;
+    money3/=10;
+    soTienXXX (d,e,f,money3);
     cout << 500 <<" : "<< a << '\n';
     cout << 200 <<" : "<< b << '\n';
     cout << 100 <<" : "<< c << '\n';

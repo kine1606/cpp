@@ -1,0 +1,17 @@
+asd .b.dd    . sdf ..234 .. f sdf . . 
+before	asd .b.dd    . sdf ..234 .. f sdf . . 
+		dem=1
+after	asd.b.dd    . sdf ..234 .. f sdf . . 
+before	asd.b.dd    . sdf ..234 .. f sdf . . 
+		dem=4
+after	asd.b.dd. sdf ..234 .. f sdf . . 
+before	asd.b.dd. sdf ..234 .. f sdf . . 
+		dem=1
+after	asd.b.dd. sdf..234 .. f sdf . . 
+before	asd.b.dd. sdf..234 .. f sdf . . 
+		dem=1
+after	asd.b.dd. sdf..234.. f sdf . . 
+before	asd.b.dd. sdf..234.. f sdf . . 
+		dem=3
+after	asd.b.dd. sdf..234.. f sdf. 
+asd.b.dd. sdf..234.. f sdf. 

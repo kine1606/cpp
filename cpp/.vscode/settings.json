@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.log*": "Log",
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "xmemory": "cpp",
+        "xutility": "cpp",
+        "algorithm": "cpp",
+        "iterator": "cpp",
+        "vector": "cpp",
+        "ios": "cpp"
+    }
+}

@@ -45,20 +45,20 @@ int main()
     int n;
     int *a;
     std::cout<<Nhap(a,n) <<" is sum of all elements" <<'\n';
-    // std::cout<< "before delete: " ;
-    // for (size_t i = 0; i < n; i++)
-    // {
-    //     std::cout<< a[i]  << " ";
-    // }
-    // int p;
-    // std::cout<< "\nenter p:" <<'\n';
-    // std::cin>> p;
-    // xoaPhanTu(a,n,p);
-    // std::cout<< "\nafter delete: ";
-    // for (size_t i = 0; i < n; i++)
-    // {
-    //     std::cout<< a[i]  << " ";
-    // }
+    std::cout<< "before delete: " ;
+    for (size_t i = 0; i < n; i++)
+    {
+        std::cout<< a[i]  << " ";
+    }
+    int p;
+    std::cout<< "\nenter p:" <<'\n';
+    std::cin>> p;
+    xoaPhanTu(a,n,p);
+    std::cout<< "\nafter delete: ";
+    for (size_t i = 0; i < n; i++)
+    {
+        std::cout<< a[i]  << " ";
+    }
     xenKe(a,n);
     for (size_t i = 0; i < n; i++)
     {

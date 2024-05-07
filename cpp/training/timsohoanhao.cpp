@@ -1,7 +1,6 @@
 // tim so co phai so hoan hao hay khong ?
 // by Kine1606
 #include <iostream>
-#include <vector>
 #define MAX 100000
 using namespace std;
 bool sumDivisor (int n)
