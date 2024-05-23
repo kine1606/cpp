@@ -1,0 +1,110 @@
+Nhap ma so xe: Nhap ma so dong co: Nhap loai dong co: Nhap tieu chuan dong co B: Nhap hang san xuat dong co: Nhap ma so banh xe: Nhap loai banh xe: Nhap hang san xuat: Nhap ma so khung xe: Nhap loai khung xe (nhom || nhua): Nhap hang san xuat khung xe: Nhap ma so xe: Nhap ma so dong co: Nhap loai dong co: Nhap tieu chuan dong co B: Nhap hang san xuat dong co: Nhap ma so banh xe: Nhap loai banh xe: Nhap hang san xuat: Nhap ma so khung xe: Nhap loai khung xe (nhom || nhua): Nhap hang san xuat khung xe: Nhap ma so xe: Nhap ma so dong co: Nhap loai dong co: Nhap tieu chuan dong co B: Nhap hang san xuat dong co: Nhap ma so banh xe: Nhap loai banh xe: Nhap hang san xuat: Nhap ma so khung xe: Nhap loai khung xe (nhom || nhua): Nhap hang san xuat khung xe: Nhap ma so xe: Nhap ma so dong co: Nhap loai dong co: Nhap tieu chuan dong co B: Nhap hang san xuat dong co: Nhap ma so banh xe: Nhap loai banh xe: Nhap hang san xuat: Nhap ma so khung xe: Nhap loai khung xe (nhom || nhua): Nhap hang san xuat khung xe: Nhap ma so xe: Nhap ma so dong co: Nhap loai dong co: Nhap tieu chuan dong co B: Nhap hang san xuat dong co: Nhap ma so banh xe: Nhap loai banh xe: Nhap hang san xuat: Nhap ma so khung xe: Nhap loai khung xe (nhom || nhua): Nhap hang san xuat khung xe: ====================================
+THONG TIN XE MAY:
+ Ma so xe may: XM23596
+
+THONG TIN DONG CO: 
+Ma so dong co: DC 22435
+Loai dong co: B3
+Don gia dong co: 800
+Hang san xuat dong co: Honda
+
+THONG TIN BANH XE:
+Ma so banh xe: BX 2341
+Loai banh xe: D
+Hang san xuat banh xe: Honda
+Don gia: 400
+
+THONG TIN KHUNG XE:
+Ma so khung xe: KX 1203
+Loai khung xe: nhua
+Hang san xuat khung xe: Honda
+Don gia khung xe: 200
+
+====================================
+THONG TIN XE MAY:
+ Ma so xe may: XM23596
+
+THONG TIN DONG CO: 
+Ma so dong co: DC 22435
+Loai dong co: B3
+Don gia dong co: 800
+Hang san xuat dong co: Honda
+
+THONG TIN BANH XE:
+Ma so banh xe: BX 2341
+Loai banh xe: D
+Hang san xuat banh xe: Honda
+Don gia: 400
+
+THONG TIN KHUNG XE:
+Ma so khung xe: KX 1203
+Loai khung xe: nhua
+Hang san xuat khung xe: Honda
+Don gia khung xe: 200
+
+====================================
+THONG TIN XE MAY:
+ Ma so xe may: XM23596
+
+THONG TIN DONG CO: 
+Ma so dong co: DC 22435
+Loai dong co: B3
+Don gia dong co: 800
+Hang san xuat dong co: Honda
+
+THONG TIN BANH XE:
+Ma so banh xe: BX 2341
+Loai banh xe: D
+Hang san xuat banh xe: Honda
+Don gia: 400
+
+THONG TIN KHUNG XE:
+Ma so khung xe: KX 1203
+Loai khung xe: nhua
+Hang san xuat khung xe: Honda
+Don gia khung xe: 200
+
+====================================
+THONG TIN XE MAY:
+ Ma so xe may: XM23596
+
+THONG TIN DONG CO: 
+Ma so dong co: DC 22435
+Loai dong co: B3
+Don gia dong co: 800
+Hang san xuat dong co: Honda
+
+THONG TIN BANH XE:
+Ma so banh xe: BX 2341
+Loai banh xe: D
+Hang san xuat banh xe: Honda
+Don gia: 400
+
+THONG TIN KHUNG XE:
+Ma so khung xe: KX 1203
+Loai khung xe: nhua
+Hang san xuat khung xe: Honda
+Don gia khung xe: 200
+
+====================================
+THONG TIN XE MAY:
+ Ma so xe may: XM23596
+
+THONG TIN DONG CO: 
+Ma so dong co: DC 22435
+Loai dong co: B3
+Don gia dong co: 800
+Hang san xuat dong co: Honda
+
+THONG TIN BANH XE:
+Ma so banh xe: BX 2341
+Loai banh xe: D
+Hang san xuat banh xe: Honda
+Don gia: 400
+
+THONG TIN KHUNG XE:
+Ma so khung xe: KX 1203
+Loai khung xe: nhua
+Hang san xuat khung xe: Honda
+Don gia khung xe: 200
+
