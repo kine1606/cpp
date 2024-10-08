@@ -144,12 +144,11 @@ void BinarySearchTree::InOrder_Iterative()
             {
                 stack_TreeNode.push(currentNode->pLeft);
             } 
-            std::cout << stack_TreeNode.top()->m_value << " ";
+            std::cout << currentNode->m_value << " ";
             if(currentNode->pRight!= nullptr)
             {
                 stack_TreeNode.push(currentNode->pRight);
             }
-
         }
         
     }

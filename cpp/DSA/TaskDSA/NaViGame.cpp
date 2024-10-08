@@ -24,26 +24,24 @@ Nếu game thủ đang online, xuất ra 1
 #include <vector>
 int main()
 {
-    std::map<int, bool> myMap;
+    std::map<int, std::pair<int, bool>> myMap;
     std::vector <int> myVector;
+    int index(0);
     while(true)
     {
         int x, y;
-        std::cin>> x ;
-        if(x== 0) break;
+        std::cin>> x;
+        if(x==0) break;
         std::cin>> y ;
-        if(x==1) myMap[y] = true;
-        else if(x==3) myMap[y] = false; 
-        else 
+        if(x==1) myMap[y] = std::make_pair(index++, true);
+        else
         {
-            if(myMap[y] == false) myVector.push_back(0);
-            else if(myMap[y] == true) myVector.push_back(1);
+            if(myMap[y].second == false) myVector.push_back(0);
+            else if(myMap[y].second == true) myVector.push_back(myMap[y].first);
         }
     }
     for (auto &&i : myVector)
     {
         std::cout<< i <<'\n';
     }
-    
-    
 }

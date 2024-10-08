@@ -1,7 +1,7 @@
  // tính S(x,n) =x^n (double n);
  // by Kine1606
  #include <iostream>
- #include <cmath>
+
  using namespace std;
  int main()
  {

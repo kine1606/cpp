@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <cmath>
 struct ToaDo
 {
     int x;
@@ -25,15 +26,20 @@ struct ToaDo
         return xx.uoc < this->uoc;
     }
 };
-int UocSo(long long x)
-{
+
+int timUocSoToiUu(int n) {
+
     int count(0);
-    for (size_t i = 1; i*i <= x; i++)
-    {
-        if(x%i == 0) count++;
-        x/=i;
+    int max_i = sqrt(n) + (n % 2 == 0); // Kiểm tra số chẵn lẻ
+    for (int i = 1; i <= max_i; i += 2) {
+        if (n % i == 0) {
+            count++;
+        if (i != n / i) {
+            count++;
+      }
     }
-    return count;
+  }
+  return count;
 }
 int main()
 {
@@ -70,7 +76,7 @@ int main()
             ToaDo temp;
             temp.x = i;
             temp.y = j;
-            temp.uoc = UocSo(Tich);
+            temp.uoc = timUocSoToiUu(Tich);
             TichTamSo.push_back(temp);
         }
     }

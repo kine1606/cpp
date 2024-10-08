@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\learning3\\cpp\\OOP\\BongDa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF56415-11B5-4BC7-AB0F-4BBA03DBA871}|BongDa\\BongDa.vcxproj|D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\DoiBongTamTrung.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9CF56415-11B5-4BC7-AB0F-4BBA03DBA871}|BongDa\\BongDa.vcxproj|solutionrelative:BongDa\\DoiBongTamTrung.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF56415-11B5-4BC7-AB0F-4BBA03DBA871}|BongDa\\BongDa.vcxproj|D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\DoiBong.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9CF56415-11B5-4BC7-AB0F-4BBA03DBA871}|BongDa\\BongDa.vcxproj|solutionrelative:BongDa\\DoiBong.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF56415-11B5-4BC7-AB0F-4BBA03DBA871}|BongDa\\BongDa.vcxproj|D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\CauThu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9CF56415-11B5-4BC7-AB0F-4BBA03DBA871}|BongDa\\BongDa.vcxproj|solutionrelative:BongDa\\CauThu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF56415-11B5-4BC7-AB0F-4BBA03DBA871}|BongDa\\BongDa.vcxproj|D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\BongDa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9CF56415-11B5-4BC7-AB0F-4BBA03DBA871}|BongDa\\BongDa.vcxproj|solutionrelative:BongDa\\BongDa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF56415-11B5-4BC7-AB0F-4BBA03DBA871}|BongDa\\BongDa.vcxproj|D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\QuanLyBongDa.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9CF56415-11B5-4BC7-AB0F-4BBA03DBA871}|BongDa\\BongDa.vcxproj|solutionrelative:BongDa\\QuanLyBongDa.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoiBongTamTrung.h",
+              "DocumentMoniker": "D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\DoiBongTamTrung.h",
+              "RelativeDocumentMoniker": "BongDa\\DoiBongTamTrung.h",
+              "ToolTip": "D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\DoiBongTamTrung.h*",
+              "RelativeToolTip": "BongDa\\DoiBongTamTrung.h*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-15T12:46:52.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoiBong.h",
+              "DocumentMoniker": "D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\DoiBong.h",
+              "RelativeDocumentMoniker": "BongDa\\DoiBong.h",
+              "ToolTip": "D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\DoiBong.h*",
+              "RelativeToolTip": "BongDa\\DoiBong.h*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-15T12:46:34.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuanLyBongDa.h",
+              "DocumentMoniker": "D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\QuanLyBongDa.h",
+              "RelativeDocumentMoniker": "BongDa\\QuanLyBongDa.h",
+              "ToolTip": "D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\QuanLyBongDa.h*",
+              "RelativeToolTip": "BongDa\\QuanLyBongDa.h*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-15T12:46:17.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CauThu.h",
+              "DocumentMoniker": "D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\CauThu.h",
+              "RelativeDocumentMoniker": "BongDa\\CauThu.h",
+              "ToolTip": "D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\CauThu.h*",
+              "RelativeToolTip": "BongDa\\CauThu.h*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-15T12:39:55.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BongDa.cpp",
+              "DocumentMoniker": "D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\BongDa.cpp",
+              "RelativeDocumentMoniker": "BongDa\\BongDa.cpp",
+              "ToolTip": "D:\\learning3\\cpp\\OOP\\BongDa\\BongDa\\BongDa.cpp",
+              "RelativeToolTip": "BongDa\\BongDa.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-15T12:37:34.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

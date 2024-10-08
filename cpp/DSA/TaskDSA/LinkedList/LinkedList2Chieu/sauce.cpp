@@ -3,8 +3,7 @@
 int main()
 {
     DoubleLinkedList DLL;
-    int n;
-    std::cin >> n;
+    int n(10);
     for (size_t i = 0; i < n; i++)
     {
         Node* new_node = new Node(i);

@@ -1,0 +1,15 @@
+XUAT THONG TIN DU AN:
+GanttChartViewer
+  Ma du an:333
+  Ten du an:1
+  Mo ta: 1
+  Nguoi quan tri: 1
+1.
+	 XUAT THONG TIN CONG VIEC: 
+	  ID:1
+	  Tieu de:1
+	  Mo ta:1
+	  Ngay ket thuc:1
+	  Trang thai:1
+	  Nguoi tao du an:1
+	  Nguoi thuc hien:1

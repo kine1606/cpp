@@ -1,0 +1,76 @@
+NHAP THONG TIN XE MAY: 
+Nhap ma so xe may: BANG CHON LAP RAP XE MAY:
+CHON DONG CO: 
+1. Dong co A
+2. Dong co B
+3. Dong co C
+CHON BANH XE: 
+1. Banh xe D
+2. Banh xe E
+CHON KHUNG XE: 
+1. Khung xe nhom
+2. Khung xe nhua
+NHAP THONG TIN DONG CO: 
+Nhap ma so dong co: Nhap hang san xuat dong co: NHAP THONG TIN BANH XE: 
+Nhap ma so banh xe: Nhap hang san xuat banh xe: NHAP THONG TIN KHUNG XE: 
+Nhap ma so khung xe: Nhap hang san xuat khung xe: NHAP THONG TIN XE MAY: 
+Nhap ma so xe may: BANG CHON LAP RAP XE MAY:
+CHON DONG CO: 
+1. Dong co A
+2. Dong co B
+3. Dong co C
+CHON BANH XE: 
+1. Banh xe D
+2. Banh xe E
+CHON KHUNG XE: 
+1. Khung xe nhom
+2. Khung xe nhua
+NHAP THONG TIN DONG CO: 
+Nhap ma so dong co: Nhap hang san xuat dong co: Nhap tieu chuan
+NHAP THONG TIN BANH XE: 
+Nhap ma so banh xe: Nhap hang san xuat banh xe: NHAP THONG TIN KHUNG XE: 
+Nhap ma so khung xe: Nhap hang san xuat khung xe: ====================================
+XUAT THONG TIN XE MAY:
+
+Ma so xe may: XM1
+
+THONG TIN DONG CO: 
+Ma so dong co: DC1
+Hang san xuat dong co: Honda
+Loai dong co: A
+Don gia: 500
+
+XUAT THONG TIN BANH XE: 
+Ma so banh xe: BX1
+Hang san xuat: Honda
+Loai banh xe: D
+Don gia: 400
+
+XUAT THONG TIN KHUNG XE: 
+Ma so khung xe: KX1
+Hang san xuat: Honda
+Loai khung xe: Khung xe Nhom
+Don gia: 500
+====================================
+XUAT THONG TIN XE MAY:
+
+Ma so xe may: XM2
+
+THONG TIN DONG CO: 
+Ma so dong co: DC2
+Hang san xuat dong co: Toyota
+Loai dong co: B
+Don gia: 700
+Loai dong co: B-2
+
+XUAT THONG TIN BANH XE: 
+Ma so banh xe: BX2
+Hang san xuat: Honda
+Loai banh xe: E
+Don gia: 300
+
+XUAT THONG TIN KHUNG XE: 
+Ma so khung xe: KX2
+Hang san xuat: Honda
+Loai khung xe: Khung xe nhua
+Don gia: 200

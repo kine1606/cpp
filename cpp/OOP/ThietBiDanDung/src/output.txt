@@ -1,0 +1,27 @@
+So luong hoa don muon nhap:   Nhap thong tin hoa don 1:
+	 Ma hoa don: 	 Ngay lap hoa don:   Thong tin khach hang:
+	 Ma khach hang: 	 Ten khach hang: 	 Dia chi: 	 So dien thoai:   Nhap danh sach cac chi tiet hoa don: 
+    So luong chi tiet trong danh sach cac chi tiet hoa don: 		 Nhap chi tiet hoa don thu 1:
+			 Chon loai thiet bi dien: (1-may quat, 2-may lanh): 				 Chon loai may quat: (1- dung, 2- hoi nuoc, 3- sac dien): 		 Nhap ma: 		 Ten san pham: 		 Noi san xuat: 		 Dung tich nuoc: 	 So luong ban ra: 		 Nhap chi tiet hoa don thu 2:
+			 Chon loai thiet bi dien: (1-may quat, 2-may lanh): 				 Chon loai may lanh: (1- 1 chieu, 2- 2 chieu): 		 Nhap ma: 		 Ten san pham: 		 Noi san xuat: 		 Inverter (0-khong co, 1-co): 		 Cong nghe khang khuan: (0- khong co, 1- co): 		 Cong nghe khu mui: (0- khong co, 1- co): 	 So luong ban ra:   Nhap thong tin hoa don 2:
+	 Ma hoa don: 	 Ngay lap hoa don:   Thong tin khach hang:
+	 Ma khach hang: 	 Ten khach hang: 	 Dia chi: 	 So dien thoai:   Nhap danh sach cac chi tiet hoa don: 
+    So luong chi tiet trong danh sach cac chi tiet hoa don: 		 Nhap chi tiet hoa don thu 1:
+			 Chon loai thiet bi dien: (1-may quat, 2-may lanh): 				 Chon loai may lanh: (1- 1 chieu, 2- 2 chieu): 		 Nhap ma: 		 Ten san pham: 		 Noi san xuat: 		 Inverter (0-khong co, 1-co): 	 So luong ban ra: 		 Nhap chi tiet hoa don thu 2:
+			 Chon loai thiet bi dien: (1-may quat, 2-may lanh): 				 Chon loai may quat: (1- dung, 2- hoi nuoc, 3- sac dien): 		 Nhap ma: 		 Ten san pham: 		 Noi san xuat: 		 Dung luong pin: 	 So luong ban ra: 
+===================================
+Hoa don: HD001 30/5/18 9400
+	 Thong tin khach hang: <KH001> <Nguyen Trung Kien> <HCM> <0907.721.486>
+	 Danh sach chi tiet cac hoa don: 
+		+ May quat: <QMHN001> <May quat hoi nuoc AA> <cong ty AA> <1200> <Quat hoi nuoc> <Dung tich nuoc: 3> <So luong ban ra: 2>
+		+ May lanh: <ML001> <May Lanh 2 chieu ahihi> <cong ty ahihi > <3500> <2 chieu> <Co cong nghe khang khuan> <Co cong nghe khu mui> <So luong ban ra: 2>
+	 Tong don gia cua hoa don 1: 9400
+
+===================================
+Hoa don: HD002 30/4/19 9500
+	 Thong tin khach hang: <KH002> <Nguyen Tuyet Huong> <HCM> <0379.970.361>
+	 Danh sach chi tiet cac hoa don: 
+		+ May lanh: <ML003> <May lanh 1 chieu AB> <cong ty AB> <1500> <1 chieu> <Khong co cong nghe khang khuan> <Khong co cong nghe khu mui> <So luong ban ra: 3>
+		+ May quat: <QMSD003> <Quat may sac dien ABC> <ABC> <2500> <Quat sac dien> <Dung luong pin: 5> <So luong ban ra: 2>
+	 Tong don gia cua hoa don 2: 9500
+TONG TAT CA HOA DON: 18900

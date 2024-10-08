@@ -1,45 +1,38 @@
-#include <iostream>
-#define MAX 1000
-void NhapMang(int a[], int n)
-{
-    for (size_t i = 0; i <n; i++)
-    {
-        std::cin >> a[i];
-    }
+#include <bits/stdc++.h>
+using namespace std;
+
+int binarySearch(const vector<int>& vec, int data) {
+    return lower_bound(vec.begin(), vec.end(), data) - vec.begin();
 }
-void XuatMang (int *a, int n)
-{
-    for (size_t i = 0; i <n; i++)
-    {
-        std::cout << *(a+i) << " ";
-    }
-}
-void XoaPhanTu(int *a, int &n, int y)
-{
-    int b[MAX];
-    int count(0);
-    for (size_t i = 0; i <n; i++)
-    {
-        if(a[i]!=y)
-        {
-            b[count++]=a[i];
+
+void Processing() {
+    vector<int> vec;
+    vector<int> results;
+    int t, p;
+
+    while (cin >> t && t != 0) {
+        cin >> p;
+        if (t == 1) {
+            auto it = lower_bound(vec.begin(), vec.end(), p);
+            if (it == vec.end() || *it != p) {
+                vec.insert(it, p);
+            }
+        } else {
+            int pos = binarySearch(vec, p);
+            results.push_back(pos < vec.size() && vec[pos] == p ? pos + 1 : 0);
         }
     }
-    delete a;
-    for (size_t i = 0; i < count; i++)
-    {
-        a[i]=b[i];
+
+    for (int result : results) {
+        cout << result << "\n";
     }
-    n=count;
 }
-int main()
-{
-    int n;
-    std::cin >> n;
-    int *a= new int [n];
-    NhapMang(a,n);
-    int y;
-    std::cin >> y;
-    XoaPhanTu(a,n,y);
-    XuatMang(a,n);
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+
+    Processing();
+    return 0;
 }

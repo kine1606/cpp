@@ -1,0 +1,12 @@
+Nhap so luong nhan vien:   Nhan vien san xuat / Nhan vien van phong (0-nvsx, 1-nvvp):NHAP THONG TIN NHAN VIEN:
+	 Ten nhan vien: 	 Ngay sinh: 	 Luong co ban: 	 So san pham da hoan thien:   Nhan vien san xuat / Nhan vien van phong (0-nvsx, 1-nvvp):NHAP THONG TIN NHAN VIEN:
+	 Ten nhan vien: 	 Ngay sinh: 	 So ngay lam viec: 
+THONG TIN NHAN VIEN: 
+	 Ten nhan vien: Nguyen Trung Kien
+	 Ngay sinh: 16/6/2005
+	 Luong: 1001000
+
+THONG TIN NHAN VIEN: 
+	 Ten nhan vien: Nguyen Tuyet Huong
+	 Ngay sinh: 11/02/2005
+	 Luong: 5000000

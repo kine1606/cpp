@@ -8,7 +8,7 @@ private:
     long long m_salery;
 public:
     GiangVien();
-    GiangVien(std::string, std::string,std::string, int, int);
+    GiangVien(std::string, std::string, std::string, int, int);
 
     void setTeachingTime(int);
     void setResearchTime(int);
